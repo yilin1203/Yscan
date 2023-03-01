@@ -1,4 +1,4 @@
-# Yscan
+# Yscan_v1.0
 
 ![1](https://user-images.githubusercontent.com/71480339/222026628-69c7cfed-f2ed-4425-9174-052e7023eb0c.png)
 ![2](https://user-images.githubusercontent.com/71480339/222026056-bc738df4-617b-40a5-b0f4-650cbff1b3e6.png)
