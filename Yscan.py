@@ -251,20 +251,12 @@ if __name__ == '__main__':
     parser.add_argument('-u', '--url', help='Scan target banner')
     parser.add_argument('-r', '--read', help='Batch scan target url')
     parser.add_argument('-p', '--port', help='Scan target port', action='store_true')
-    parser.add_argument('-n', '--nping', help='Multi-node ping target', action='store_true')
-    parser.add_argument('-d', '--dirscan', help='Scan target directory', action='store_true')
     parser.add_argument('-s', '--subscan', help='Scan target subdomain', action='store_true')
-    parser.add_argument('-a', '--fullscan', help='Use all options', action='store_true')
-    parser.add_argument('-o', '--outlog', help='Output log')
     args = parser.parse_args()
     url = args.url
     filename = args.read
-    nping = args.nping
     port = args.port
-    dirscan = args.dirscan
     subscan = args.subscan
-    fullscan = args.fullscan
-    outlog = args.outlog
 
     if filename is not None:
         url_list = bat_scan(filename)
